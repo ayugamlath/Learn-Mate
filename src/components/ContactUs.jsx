@@ -30,11 +30,11 @@ export const ContactUs = () => {
     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <section className="">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 className="mb-14 text-4xl tracking-tight font-extrabold text-center text-white dark:text-white " >Contact Us</h2>
+          <h2 className="mb-14 text-4xl tracking-tight font-extrabold text-center text-black dark:text-black " >Contact Us</h2>
           <motion.p whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x:-100}}
             transition={{duration:0.5}}
-             className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-white sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</motion.p>
+             className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-black sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</motion.p>
            
            <motion.form  
             whileInView={{opacity:1,x:0}}
@@ -42,7 +42,7 @@ export const ContactUs = () => {
             transition={{duration:1}}
          ref={form} onSubmit={sendEmail} className="space-y-8">
             <div>
-              <label htmlFor="from_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+              <label htmlFor="from_name" className="block mb-2 text-sm font-medium text-black-900 dark:text-black-300">Your email</label>
               <input type="email"  name="from_name" id="from_name" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-black dark:text-black dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@gmail.com" required />
             </div>
             <div>

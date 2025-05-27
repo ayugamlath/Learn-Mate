@@ -1,6 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT } from "../constants";
-import PrfilePic from "../assets/Profile.jpg";
+import Logo from "../assets/Logo.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -21,7 +21,7 @@ function Hero() {
               animate="visible"
               className="pb-8 text-5xl lg:text-7xl font-thin tracking-tight text-white mt-12 mb-4"
             >
-              GamlathX
+              Learn Mate
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -53,7 +53,7 @@ function Hero() {
         <div className="w-full lg:w-5/12 flex justify-center items-center">
           <div className="w-full h-full max-w-screen-lg flex justify-center items-center">
             <img
-              src={PrfilePic}
+              src={Logo}
               alt="Profile"
               className=" w-full h-full max-w-[32rem] max-h-[32rem] object-cover  mt-8 lg:mt-16"
             />

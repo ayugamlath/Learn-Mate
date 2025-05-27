@@ -38,10 +38,10 @@ export default function Main() {
     <div>
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-5xl md:text-6xl font-extrabold text-black mb-2 mt-24 text-center drop-shadow-lg">
-        GamlathX
+        Learn Mate
         </h1>
         <p className="text-xl md:text-2xl text-black mb-12 text-center">
-          Where AI Meets the Road – GamlathX
+          Smart Educational Tool
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-5xl">
           {cards.map((card, i) => (

@@ -6,42 +6,40 @@ const teamMembers = [
   {
     name: 'Gamlathge G.G.A.U.',
     role: 'Researcher',
-    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Data Science',
+    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
     image: 'src/assets/aayu.jpg',
   },
 
   {
     name: 'W.A.S Heshan',
     role: 'Researcher',
-    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Data Science',
+    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
     image: 'src/assets/sachintha.jpg',
   },
 
   {
     name: 'N.G.S.S.M Bandara',
     role: 'Researcher',
-    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Data Science',
+    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
     image: 'src/assets/shehan.jpg',
   },
   
   {
     name: 'P.A.D.S Lakshan',
     role: 'Researcher',
-    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Data Science',
+    degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
     image: 'src/assets/lakshan.jpg',
   },
 
   {
     name: 'Ms.Wishalya Thisera',
     role: 'Supervisor',
-    degree: 'Senior Lecturer, Sri Lanka Institute of Information Technology',
     image: 'src/assets/wishalya.jpg',
   },
   
   {
     name: 'Dr.Darshana Kasthurirathne',
     role: 'Co-Supervisor',
-    degree: 'Senior Lecturer, Sri Lanka Institute of Information Technology',
    image: 'src/assets/darshana.jpg',
   },
 ];

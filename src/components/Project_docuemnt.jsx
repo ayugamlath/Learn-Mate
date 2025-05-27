@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // PDF imports
-import charterPDF from "../assets/pdf/24_25J_213_Ethical Analysis Report.pdf";
-import proposalPDF from "../assets/pdf/Project Proposal Report.pdf";
-import researchPDF from "../assets/pdf/24-25J-213_Research_Paper.pdf";
-import thesisPDF from "../assets/pdf/24_25J_213_MLOps Report.pdf";
-import studentDocPDF from "../assets/pdf/studentdoc.pdf";
-import logbookPDF from "../assets/pdf/24-25J-213 _Data Analysis Report.pdf";
-import businessPDF from "../assets/pdf/business.pdf";
+import charterPDF from "../assets/pdf/proposal.pdf";
+import proposalPDF from "../assets/pdf/proposal.pdf";
+import researchPDF from "../assets/pdf/research_paper.pdf";
+import thesisPDF from "../assets/pdf/final_report.pdf";
+import studentDocPDF from "../assets/pdf/student_document.pdf";
+// import logbookPDF from "../assets/pdf/24-25J-213 _Data Analysis Report.pdf";
+// import businessPDF from "../assets/pdf/business.pdf";
 
 const docs = [
   {
@@ -49,14 +49,14 @@ const docs = [
   {
     title: "Research Logbook",
     desc: "The document describes the progress of the project within the specific time period and compares it against the project plan checklist.",
-    pdf: logbookPDF,
+    // pdf: logbookPDF,
     icon: "📔",
     color: "from-orange-200 to-orange-100",
   },
   {
     title: "Business Plan",
     desc: "The document outlines the business plan for the project.",
-    pdf: businessPDF,
+    // pdf: businessPDF,
     icon: "💼",
     color: "from-teal-200 to-teal-100",
   },

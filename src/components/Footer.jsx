@@ -11,20 +11,20 @@ const Contact = () => {
           <div className="flex-1 mb-8 md:mb-0">
             <div className="flex items-center mb-4 space-x-3">
               <img src={logo} className="h-10" alt="ManthraX Logo" />
-              <span className="font-bold text-lg">MANTHRA-X</span>
+              <span className="font-bold text-lg">Learn Mate</span>
             </div>
             <p className="mb-1">Final Year Research Project</p>
-            <p className="mb-1">Sri Lankan Legal Information Retrieval System</p>
-            <p className="mb-1">Team ManthraX (2025-025)</p>
+            <p className="mb-1">Smart Tool for Early Detection and Mitigation Learning Disabilities</p>
+            <p className="mb-1">Team Learn Mate (2025-325)</p>
             <p className="mb-2">Sri Lanka Institute of Information Technology</p>
-            <p className="mb-1"><span className="font-semibold">Phone:</span> +784416209</p>
-            <p className="mb-4"><span className="font-semibold">Email:</span> MathraX.srilanka@gmail.com</p>
+            <p className="mb-1"><span className="font-semibold">Phone:</span> +7841234567</p>
+            <p className="mb-4"><span className="font-semibold">Email:</span> learnmate@gmail.com</p>
             <div className="flex space-x-4 mt-2">
               <a href="#" className="hover:text-blue-400"><FaTwitter size={20} /></a>
               <a href="#" className="hover:text-blue-400"><FaFacebook size={20} /></a>
               <a href="#" className="hover:text-pink-400"><FaInstagram size={20} /></a>
               <a href="#" className="hover:text-blue-400"><FaSkype size={20} /></a>
-              <a href="https://www.linkedin.com/in/ishara2000/" className="hover:text-blue-400"><FaLinkedin size={20} /></a>
+              <a href="#" className="hover:text-blue-400"><FaLinkedin size={20} /></a>
             </div>
           </div>
           {/* Useful Links */}
@@ -44,18 +44,18 @@ const Contact = () => {
           <div className="flex-1">
             <h3 className="font-bold text-lg mb-4">Our Services</h3>
             <ul className="space-y-2">
-              <li>Real-Time Object & Threat Detection using Custom Models</li>
-            <li>In-Cabin Knowledge Graph Development & Sensor Data Integration</li>
-            <li>Smart Incident Summarization & Risk Analysis</li>
-            <li>Voice & Emotion-Based Question Answering for Safety Insights</li>
-            <li>Elegant & Responsive Web Dashboard for Monitoring & Control</li>
+              <li>Real-Time Handwriting & Reading Pattern Analysis</li>
+            <li>Personalized Learning Profile Generation</li>
+            <li>Voice-Based Reading Tasks & Fluency Scoring</li>
+            <li>Multimodal Learning Support & Mitigation Activities</li>
+            <li>Secure Data Storage & Accessibility</li>
 
             </ul>
           </div>
         </div>
         <hr className="my-8 border-gray-700" />
         <div className="text-center text-sm text-gray-500">
-          © 2025 <a href="https://www.linkedin.com/in/ishara2000/" className="hover:underline">IsharaTharindu™</a>. All Rights Reserved.
+          © 2025 <a href="#" className="hover:underline">LearnMate</a>. All Rights Reserved.
         </div>
       </div>
     </footer>

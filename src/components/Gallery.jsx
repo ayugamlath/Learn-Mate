@@ -4,24 +4,23 @@ import '../style/Gallery.css';
 const images = [
   {
     src: 'src/img/1.jpg',
-    title: 'Silver Jubilee Innovation expo 2025',
-    description:
-      'This is a project that showcases the innovative solutions developed by our team during the Silver Jubilee Innovation Expo 2025.',
+    title: 'External Supervisor visit',
+    description:""
   },
   {
     src: 'src/img/2.jpg',
-    title: 'Project Title 2',
-    description: 'Short description for project 2.',
+    title: 'Data collection',
+    description: '.',
   },
   {
     src: 'src/img/3.jpg',
-    title: 'Project Title 3',
-    description: 'Short description for project 3.',
+    title: 'Data collection',
+    description: '.',
   },
   {
     src: 'src/img/4.jpg',
-    title: 'Project Title 4',
-    description: 'Short description for project 4.',
+    title: 'Data collection',
+    description: '',
   },
   // Add more images as needed
 ];
