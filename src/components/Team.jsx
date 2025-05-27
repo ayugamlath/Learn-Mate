@@ -1,46 +1,51 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import aayuImg from '../assets/aayu.png';
+import sachinthaImg from '../assets/sachintha.png';
+import shehanImg from '../assets/shehan.png';
+import lakshanImg from '../assets/lakshan.png';
+import wishalyaImg from '../assets/wishalya.png';
+import darshanaImg from '../assets/darshana.png';
 
 const teamMembers = [
   {
     name: 'Gamlathge G.G.A.U.',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/aayu.png',
+    image: aayuImg,
   },
 
   {
     name: 'W.A.S Heshan',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/sachintha.png',
+    image: sachinthaImg,
   },
 
   {
     name: 'N.G.S.S.M Bandara',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/shehan.png',
+    image: shehanImg,
   },
   
   {
     name: 'P.A.D.S Lakshan',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/lakshan.png',
+    image: lakshanImg,
   },
 
   {
     name: 'Ms.Wishalya Thisera',
     role: 'Supervisor',
-    image: 'src/assets/wishalya.png',
+    image: wishalyaImg,
   },
   
   {
     name: 'Dr.Darshana Kasthurirathne',
     role: 'Co-Supervisor',
-   image: 'src/assets/darshana.png',
+    image: darshanaImg,
   },
 ];
 
