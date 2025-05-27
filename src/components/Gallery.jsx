@@ -1,24 +1,28 @@
 import React, { useEffect, useState } from 'react';
 import '../style/Gallery.css';
+import img1 from '../img/1.jpg';
+import img2 from '../img/2.jpg';
+import img3 from '../img/3.jpg';
+import img4 from '../img/4.jpg';
 
 const images = [
   {
-    src: 'src/img/1.jpg',
+    src: img1,
     title: 'External Supervisor visit',
-    description:""
+    description: ""
   },
   {
-    src: 'src/img/2.jpg',
+    src: img2,
     title: 'Data collection',
     description: '.',
   },
   {
-    src: 'src/img/3.jpg',
+    src: img3,
     title: 'Data collection',
     description: '.',
   },
   {
-    src: 'src/img/4.jpg',
+    src: img4,
     title: 'Data collection',
     description: '',
   },
