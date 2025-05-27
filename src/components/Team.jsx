@@ -7,40 +7,40 @@ const teamMembers = [
     name: 'Gamlathge G.G.A.U.',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/aayu.jpg',
+    image: 'src/assets/aayu.png',
   },
 
   {
     name: 'W.A.S Heshan',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/sachintha.jpg',
+    image: 'src/assets/sachintha.png',
   },
 
   {
     name: 'N.G.S.S.M Bandara',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/shehan.jpg',
+    image: 'src/assets/shehan.png',
   },
   
   {
     name: 'P.A.D.S Lakshan',
     role: 'Researcher',
     degree: 'Bachelor of Science (Hons) in Information Technology Specializing in Information Technology',
-    image: 'src/assets/lakshan.jpg',
+    image: 'src/assets/lakshan.png',
   },
 
   {
     name: 'Ms.Wishalya Thisera',
     role: 'Supervisor',
-    image: 'src/assets/wishalya.jpg',
+    image: 'src/assets/wishalya.png',
   },
   
   {
     name: 'Dr.Darshana Kasthurirathne',
     role: 'Co-Supervisor',
-   image: 'src/assets/darshana.jpg',
+   image: 'src/assets/darshana.png',
   },
 ];
 
