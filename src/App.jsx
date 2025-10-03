@@ -32,7 +32,6 @@ function App() {
           backgroundAttachment: 'fixed',
           opacity: 1, // 👈 Change opacity here
           zIndex: -1,
-          color: '#000000ff',
 
         }}
       />
