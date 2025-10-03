@@ -54,7 +54,7 @@ export default function Main() {
               className="bg-neutral-800 bg-opacity-50 border border-neutral-700 rounded-xl p-8 flex flex-col items-center shadow-lg hover:scale-105 transition-transform duration-300"
             >
               <div className="text-4xl mb-4">{card.icon}</div>
-              <h3 className="text-xl font-semibold text-black mb-2 text-center">
+              <h3 className="text-xl font-semibold text-white mb-2 text-center">
                 {card.title}
               </h3>
               <p className="text-neutral-300 text-center text-sm">

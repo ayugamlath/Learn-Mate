@@ -30,8 +30,9 @@ function App() {
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           backgroundAttachment: 'fixed',
-          opacity: 0.6, // 👈 Change opacity here
+          opacity: 1, // 👈 Change opacity here
           zIndex: -1,
+
         }}
       />
 
